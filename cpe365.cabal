@@ -1,0 +1,13 @@
+cabal-version: 2.4
+
+name: cpe365
+version: 0
+
+library
+  build-depends:
+    base,
+    hasql == 1.4.5.1,
+    rel8 == 1.0.0.1,
+    semigroupoids,
+    text
+  exposed-modules: Cpe365
