@@ -4,9 +4,14 @@ name: cpe365
 version: 0
 
 library
+  default-language: Haskell2010
   build-depends:
     base,
+    bytestring,
     hasql == 1.4.5.1,
+    monad-logger,
+    postgresql-query == 3.8.2,
+    postgresql-simple,
     rel8 == 1.0.0.1,
     semigroupoids,
     text
